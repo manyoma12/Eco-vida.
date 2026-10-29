@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EcoVida: aprende a cuidar el medio ambiente y proteger la naturaleza.">
+    <title>EcoVida | Cuidemos nuestro planeta</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="inicio">
+        <h1>🌿 EcoVida</h1>
+        <p>Pequeñas acciones, grandes cambios para nuestro planeta</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#problemas">Problemas</a>
+        <a href="#consejos">Consejos</a>
+        <a href="#colombia">Colombia</a>
+        <a href="#participa">Participa</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Bienvenidos a EcoVida</h2>
+            <p>
+                EcoVida es un sitio web informativo creado para aprender
+                sobre el cuidado del medio ambiente. Nuestro propósito es
+                promover hábitos responsables que ayuden a proteger la
+                naturaleza, los animales, el agua y el aire.
+            </p>
+            <img
+                src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1000&q=80"
+                alt="Bosque verde lleno de árboles">
+        </section>
+
+        <section id="problemas">
+            <h2>🌎 Principales problemas ambientales</h2>
+
+            <h3>Contaminación</h3>
+            <p>
+                Ocurre cuando se acumulan residuos o sustancias dañinas
+                en el aire, el agua y el suelo.
+            </p>
+
+            <h3>Deforestación</h3>
+            <p>
+                Es la pérdida de bosques por la tala, los incendios y
+                otros cambios en el uso del suelo.
+            </p>
+
+            <h3>Cambio climático</h3>
+            <p>
+                Es una transformación duradera del clima, causada en gran
+                parte por las emisiones humanas de gases de efecto
+                invernadero.
+            </p>
+
+            <h3>Pérdida de biodiversidad</h3>
+            <p>
+                Sucede cuando desaparecen especies y se deterioran los
+                ecosistemas que permiten la vida.
+            </p>
+        </section>
+
+        <section id="consejos">
+            <h2>💚 ¿Cómo podemos cuidar el medio ambiente?</h2>
+            <ul>
+                <li>Ahorrar agua al bañarnos y cepillarnos los dientes.</li>
+                <li>Apagar las luces cuando no las necesitamos.</li>
+                <li>Separar los residuos y reciclar correctamente.</li>
+                <li>Evitar los plásticos de un solo uso.</li>
+                <li>Usar bolsas reutilizables.</li>
+                <li>No arrojar basura a las calles, ríos o parques.</li>
+                <li>Cuidar los árboles y respetar a los animales.</li>
+                <li>Caminar, montar bicicleta o usar transporte público cuando sea posible.</li>
+            </ul>
+        </section>
+
+        <section id="colombia">
+            <h2>🇨🇴 La riqueza natural de Colombia</h2>
+            <p>
+                Colombia es un país con una gran diversidad de especies,
+                bosques, ríos, montañas y ecosistemas marinos. Cuidar
+                estos recursos es fundamental para las generaciones
+                presentes y futuras.
+            </p>
+            <img
+                src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1000&q=80"
+                alt="Vegetación abundante en un bosque">
+            <p>
+                Podemos ayudar protegiendo las fuentes de agua, evitando
+                los incendios forestales y respetando las áreas naturales.
+            </p>
+        </section>
+
+        <section id="participa">
+            <h2>🌱 Pon a prueba tus conocimientos</h2>
+            <p>¿Cuál de estas acciones ayuda a cuidar el planeta?</p>
+
+            <button class="boton" onclick="comprobarRespuesta(false)">
+                Arrojar basura al río
+            </button>
+
+            <button class="boton" onclick="comprobarRespuesta(true)">
+                Reutilizar objetos
+            </button>
+
+            <button class="boton" onclick="comprobarRespuesta(false)">
+                Dejar las luces encendidas
+            </button>
+
+            <p id="resultado" aria-live="polite"></p>
+        </section>
+
+        <section>
+            <h2>📚 Fuentes de información</h2>
+            <ul>
+                <li>
+                    <a href="https://www.unep.org/es"
+                       target="_blank" rel="noopener noreferrer">
+                       Programa de las Naciones Unidas para el Medio Ambiente
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.minambiente.gov.co/"
+                       target="_blank" rel="noopener noreferrer">
+                       Ministerio de Ambiente y Desarrollo Sostenible de Colombia
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.wwf.org.co/"
+                       target="_blank" rel="noopener noreferrer">
+                       WWF Colombia
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>©️ 2026 EcoVida | Proyecto escolar sobre el cuidado del medio ambiente</p>
+        <p>¡El planeta necesita de nuestras acciones!</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
